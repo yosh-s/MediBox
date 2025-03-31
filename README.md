@@ -18,6 +18,8 @@ Welcome to the **MediBox** repository! This project demonstrates an IoT-based al
 ---
 
 ## Overview
+![image](https://github.com/user-attachments/assets/dc2d2d30-04d3-4039-81d6-f9cf09dff70b)
+
 
 The MediBox project offers an innovative solution for managing medication schedules by integrating:
 - **Time Zone Configuration:** Adjust the system time using a UTC offset.
