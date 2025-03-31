@@ -104,48 +104,48 @@ MediBox/ ├── MediBox.ino // Main Arduino sketch ├── README.md // Pro
 # Usage
 1. **System Initialization:**
 
-  - On boot, the system will connect to Wi-Fi and fetch the current time via NTP.
-
-  - The OLED display shows a welcome message followed by the main menu.
+     - On boot, the system will connect to Wi-Fi and fetch the current time via NTP.
+   
+     - The OLED display shows a welcome message followed by the main menu.
 
 2. **Menu Navigation:**
 
-  - Set Time Zone: Input the desired UTC offset (e.g., +5.5 for IST).
-
-  - Set Alarms: Enter up to two alarms using hours and minutes.
+     - Set Time Zone: Input the desired UTC offset (e.g., +5.5 for IST).
+   
+     - Set Alarms: Enter up to two alarms using hours and minutes.
 
 3. **View Active Alarms: Display all currently active alarms.**
 
-  - Delete Alarm: Remove a chosen alarm from the list.
-
-  - Alarm Operation:
+     - Delete Alarm: Remove a chosen alarm from the list.
+   
+     - Alarm Operation:
 
 4. **When an alarm time is reached, the buzzer sounds and a visual alert is displayed.**
 
-  - Use the push button to stop or snooze the alarm for 5 minutes.
+     - Use the push button to stop or snooze the alarm for 5 minutes.
+   
+     - Environmental Monitoring:
+   
+     - The OLED continuously displays the current temperature and humidity.
 
-  - Environmental Monitoring:
-
-  - The OLED continuously displays the current temperature and humidity.
-
-  - Alerts are generated if the temperature goes beyond 24°C to 32°C or humidity goes beyond 65% to 80%.
+     - Alerts are generated if the temperature goes beyond 24°C to 32°C or humidity goes beyond 65% to 80%.
 
 # Future Enhancements
 1. **Data Logging:**
 
-  - Incorporate storage for logging temperature, humidity, and alarm events.
+     - Incorporate storage for logging temperature, humidity, and alarm events.
 
 2. **Remote Control:**
 
-  - Develop mobile or web applications for remote monitoring and alarm control.
+     - Develop mobile or web applications for remote monitoring and alarm control.
 
 3. **Voice Integration:**
 
-  - Integrate with voice assistants like Alexa or Google Assistant.
+     - Integrate with voice assistants like Alexa or Google Assistant.
 
 4. **Advanced Notification System:**
 
-  - Implement SMS or email notifications for critical alerts.
+     - Implement SMS or email notifications for critical alerts.
 
 # License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this project as per the terms of the license.
