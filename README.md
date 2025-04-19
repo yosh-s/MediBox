@@ -70,11 +70,6 @@ This project is built with a forward-thinking approach to IoT design, leveraging
 
 ## Project Structure
 
-MediBox/ ├── MediBox.ino // Main Arduino sketch 
-         ├── README.md // Project documentation 
-         └── Additional_Files/ // Libraries and configuration files (if any)
-
-
 - **MediBox.ino:** Contains the complete code with functions to:
   - Configure time zone and alarms.
   - Fetch and display time from the NTP server.
